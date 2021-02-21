@@ -5,11 +5,11 @@
 This package defines a strict eslint config to prevent code smells and promote maintainable coding practices.  
 It combines recommend settings from eslint, typescript-eslint, unicorn, sonarjs and further enables more rules.
 
-
 ## Installation
-*Before installation make sure your project has eslint and typescript available.*
 
-Step 1: Install the required packages  
+_Before installation make sure your project has eslint and typescript available._
+
+Step 1: Install the required packages
 
 ```sh
 npm i -D eslint-config-good-code @typescript-eslint/eslint-plugin eslint-plugin-sonarjs eslint-plugin-unicorn
@@ -25,6 +25,15 @@ Step 2: Extend the config in your app package.json
   }
 ```
 
+## Principles
+
+- Typescript only (with tsx) - No react, jest, a11y etc. rules.
+- No stylistic rules.
+- No clashing rules.
+- If typescript can prevent the issue, no need to enforce it via linting.
+- _(future) Multiple configurations - Allow a developer to choose what's required._
+- _(future) Modular config - Allow customization per project._
+
 ## Acknowledgment
 
 This project was made possible due to the incredible work done on the following projects:
@@ -37,5 +46,3 @@ This project was made possible due to the incredible work done on the following 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-
