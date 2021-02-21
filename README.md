@@ -1,4 +1,4 @@
-# eslint-config-good-code ✨
+# eslint-config-good-code ✨ [![npm version](https://img.shields.io/npm/v/eslint-config-good-code)](https://www.npmjs.com/package/eslint-config-good-code)
 
 > A shared strict eslint configuration for typescript (>=3.8) projects.
 
