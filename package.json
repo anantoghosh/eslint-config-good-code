@@ -1,0 +1,36 @@
+{
+  "name": "eslint-config-good-code",
+  "version": "1.0.0",
+  "description": "A strict eslint configuration for typescript projects promoting good and maintainable coding practices.",
+  "license": "MIT",
+  "author": "Ananto Ghosh <https://github.com/anantoghosh/>",
+  "main": "index.js",
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "common-rules.js",
+    "jsx-rules.js",
+    "index.js"
+  ],
+  "keywords": [
+    "eslint",
+    "config",
+    "strict",
+    "code",
+    "good",
+    "smell",
+    "maintainable",
+    "typescript"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7",
+    "typescript": ">=3.8.0",
+    "@typescript-eslint/eslint-plugin": ">=4.7.0",
+    "eslint-plugin-sonarjs": ">=0.6.0",
+    "eslint-plugin-unicorn": ">=25.0.1"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "^4.11.1"
+  }
+}
