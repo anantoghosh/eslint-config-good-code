@@ -8,6 +8,14 @@
   "engines": {
     "node": ">=10"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anantoghosh/eslint-plugin-good-code.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anantoghosh/eslint-plugin-good-code/issues"
+  },
+  "homepage": "https://github.com/anantoghosh/eslint-plugin-good-code#readme",
   "files": [
     "common-rules.js",
     "jsx-rules.js",
