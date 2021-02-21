@@ -7,7 +7,7 @@ It combines recommend settings from eslint, typescript-eslint, unicorn, sonarjs 
 
 ## Installation
 
-_Before installation make sure your project has eslint and typescript available._
+_Before installation make sure your project has eslint (>=7) and typescript (>=3.8) available._
 
 Step 1: Install the required packages
 
@@ -27,10 +27,10 @@ Step 2: Extend the config in your app package.json
 
 ## Principles
 
-- Typescript only (with tsx) - No react, jest, a11y etc. rules.
+- Typescript only (with tsx) - No react, jest, a11y etc. rules. Use in any kind of project.
 - No stylistic rules.
-- No clashing rules.
-- If typescript can prevent the issue, no need to enforce it via linting.
+- No conflicting or double enforced rules.
+- No enforcing of rules which typescript can already prevent.
 - _(future) Multiple configurations - Allow a developer to choose what's required._
 - _(future) Modular config - Allow customization per project._
 
