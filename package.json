@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anantoghosh/eslint-plugin-good-code.git"
+    "url": "git+https://github.com/anantoghosh/eslint-config-good-code.git"
   },
   "bugs": {
-    "url": "https://github.com/anantoghosh/eslint-plugin-good-code/issues"
+    "url": "https://github.com/anantoghosh/eslint-config-good-code/issues"
   },
-  "homepage": "https://github.com/anantoghosh/eslint-plugin-good-code#readme",
+  "homepage": "https://github.com/anantoghosh/eslint-config-good-code#readme",
   "files": [
     "common-rules.js",
     "jsx-rules.js",
@@ -40,5 +40,13 @@
   },
   "dependencies": {
     "@typescript-eslint/parser": "^4.11.1"
+  },
+  "devDependencies": {
+    "conventional-changelog-cli": "^2.1.1",
+    "np": "^7.4.0"
+  },
+  "scripts": {
+    "release": "np",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
   }
 }
