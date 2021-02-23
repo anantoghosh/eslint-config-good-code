@@ -1,5 +1,8 @@
 module.exports = {
   rules: {
+    // Already checked by @typescript/no-unnecessary-condition
+    'no-constant-condition': 'off',
+
     /* eslint extra rules */
     'max-lines': [
       'error',
