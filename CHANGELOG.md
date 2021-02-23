@@ -3,7 +3,8 @@
 
 ### Features
 
-* initial commit ([3e0d286](https://github.com/anantoghosh/eslint-config-good-code/commit/3e0d28609bc396aa73068f8db5c13f5d222b3c44))
+* Add release management
+* Add changelog generation
 
 
 
