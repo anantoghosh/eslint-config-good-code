@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/anantoghosh/eslint-config-good-code#readme",
   "files": [
-    "common-rules.js",
-    "jsx-rules.js",
+    "rules/**",
+    "mit.js",
     "index.js"
   ],
   "keywords": [

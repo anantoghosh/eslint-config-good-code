@@ -12,7 +12,6 @@ module.exports = {
         'eslint-config-good-code/rules/eslint-rules',
         'eslint-config-good-code/rules/typescript-rules',
         'eslint-config-good-code/rules/unicorn-rules',
-        'eslint-config-good-code/rules/sonarjs-rules',
       ],
       overrides: [
         {
