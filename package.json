@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-good-code",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A strict eslint configuration for typescript projects promoting good and maintainable coding practices.",
   "license": "MIT",
   "author": "Ananto Ghosh <https://github.com/anantoghosh/>",
