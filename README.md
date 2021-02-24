@@ -1,4 +1,4 @@
-# eslint-config-good-code ✨ [![npm version](https://img.shields.io/npm/v/eslint-config-good-code)](https://www.npmjs.com/package/eslint-config-good-code)
+# eslint-config-good-code ✨ [![npm version](https://img.shields.io/npm/v/eslint-config-good-code?logo=npm)](https://www.npmjs.com/package/eslint-config-good-code) ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/anantoghosh/eslint-config-good-code/Node.js%20CI?label=Tests&logo=github)
 
 > A shared strict eslint configuration for typescript (>=3.8) projects.
 
