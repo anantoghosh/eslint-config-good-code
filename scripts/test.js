@@ -20,7 +20,7 @@ const stdio = 'inherit';
     );
 
     console.log('Installing this package locally');
-    await execa.command('npm i -D ../eslint-config-good-code-1.0.2.tgz', {
+    await execa.command('npm i -D ../eslint-config-good-code-1.0.2.tgz --force', {
       stdio,
     });
 
@@ -28,6 +28,14 @@ const stdio = 'inherit';
     await execa.command('npm run test', {
       stdio,
     });
+
+    const result = require('../test/1.json');
+
+    if (result[0]['errorCount'] !== 7) {
+      throw new Error('Eslint error count mismatch');
+    }
+
+    console.log("Test passed ✅");
   } catch (error) {
     console.error(error);
   }
