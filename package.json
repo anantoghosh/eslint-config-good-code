@@ -43,10 +43,12 @@
   },
   "devDependencies": {
     "conventional-changelog-cli": "^2.1.1",
+    "execa": "^5.0.0",
     "np": "^7.4.0"
   },
   "scripts": {
     "release": "np",
-    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
+    "test:ci": "node scripts/test.js"
   }
 }

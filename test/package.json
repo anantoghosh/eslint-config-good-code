@@ -1,0 +1,11 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint 1.ts -o 1.json -f json || echo done"
+  },
+  "author": "Ananto Ghosh",
+  "license": "ISC"
+}

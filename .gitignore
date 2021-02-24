@@ -1,2 +1,4 @@
 node_modules/
 eslint-config-good-code*.tgz
+test/1.json
+test/package-lock.json
