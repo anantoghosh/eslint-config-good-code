@@ -34,6 +34,13 @@ Step 2: Extend the config in your app package.json
 - _(future) Multiple configurations - Allow a developer to choose what's required._
 - _(future) Modular config - Allow customization per project._
 
+## Dealing with difficult rules
+
+#### [Readonly Parameters](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-readonly-parameter-types.md)
+
+Mutating objects passed as parameters can lead to unintended bugs. It is highly recommended that this rule should be kept enabled.
+But typescript does not ship with anything to make an object deeply immutable (aka readonly). Therefore, you can add [type-fest](https://github.com/sindresorhus/type-fest), which includes ReadonlyDeep type to mark any object as readonly.
+
 ## Acknowledgment
 
 This project was made possible due to the incredible work done on the following projects:
