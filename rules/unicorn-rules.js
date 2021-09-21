@@ -21,6 +21,7 @@ module.exports = {
       'error',
       {
         replacements: {
+          err: false,
           params: false,
           props: false,
           dev: false,
