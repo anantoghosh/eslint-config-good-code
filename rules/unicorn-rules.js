@@ -2,6 +2,9 @@ module.exports = {
   rules: {
     'unicorn/no-abusive-eslint-disable': 'off',
 
+    // query selector is more verbose for typescript
+    'unicorn/prefer-query-selector': 'off',
+
     // Dependent on developer
     'unicorn/filename-case': 'off',
 
