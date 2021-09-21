@@ -1,7 +1,6 @@
 {
   "yarn": false,
   "branch": "main",
-  "preview": true,
   "message": "v%s",
   "yolo": true
 }

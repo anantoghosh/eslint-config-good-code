@@ -47,7 +47,8 @@
     "np": "^7.4.0"
   },
   "scripts": {
-    "release": "np",
+    "release": "np --preview",
+    "release:real": "np",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
     "test:ci": "node scripts/test.js"
   }
