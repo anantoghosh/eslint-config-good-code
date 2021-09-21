@@ -16,6 +16,7 @@ module.exports = {
 
     /* unicorn extra rules */
     'unicorn/prefer-ternary': ['error', 'only-single-line'],
+    'unicorn/custom-error-definition': ['error'],
     'unicorn/prevent-abbreviations': [
       'error',
       {
